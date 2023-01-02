@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { BooksentryComponent } from './booksentry/booksentry.component';
 import { ViewallComponent } from './viewall/viewall.component';
 import { SearchbookComponent } from './searchbook/searchbook.component';
+import { EditbookComponent } from './editbook/editbook.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { SearchbookComponent } from './searchbook/searchbook.component';
     BooksentryComponent,
     ViewallComponent,
     SearchbookComponent,
+    EditbookComponent,
     
   ],
   imports: [
