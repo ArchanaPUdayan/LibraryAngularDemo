@@ -10,6 +10,8 @@ import { BooksentryComponent } from './booksentry/booksentry.component';
 import { ViewallComponent } from './viewall/viewall.component';
 import { SearchbookComponent } from './searchbook/searchbook.component';
 import { EditbookComponent } from './editbook/editbook.component';
+import { BookissueComponent } from './bookissue/bookissue.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { EditbookComponent } from './editbook/editbook.component';
     ViewallComponent,
     SearchbookComponent,
     EditbookComponent,
+    BookissueComponent,
+    DeleteComponent,
     
   ],
   imports: [
