@@ -10,6 +10,7 @@ import { BooksentryComponent } from './booksentry/booksentry.component';
 import { ViewallComponent } from './viewall/viewall.component';
 import { SearchbookComponent } from './searchbook/searchbook.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { SearchbookComponent } from './searchbook/searchbook.component';
     LoginComponent,
     BooksentryComponent,
     ViewallComponent,
-    SearchbookComponent
+    SearchbookComponent,
+    
   ],
   imports: [
     BrowserModule,
