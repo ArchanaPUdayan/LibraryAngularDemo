@@ -11,6 +11,7 @@ import { ViewallComponent } from './viewall/viewall.component';
 import { SearchbookComponent } from './searchbook/searchbook.component';
 import { EditbookComponent } from './editbook/editbook.component';
 import { BookissueComponent } from './bookissue/bookissue.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BookissueComponent } from './bookissue/bookissue.component';
     SearchbookComponent,
     EditbookComponent,
     BookissueComponent,
+    DeleteComponent,
     
   ],
   imports: [
